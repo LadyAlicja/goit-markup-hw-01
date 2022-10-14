@@ -195,7 +195,7 @@ a {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-headers-color;);
+  color: var(--text-headers-color);
   border-style: solid;
   height: 38px;
   transition: 0.2s;

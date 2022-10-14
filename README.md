@@ -1,6 +1,4 @@
 # goit-markup-hw-01
 
-Zadanie domowe #1 kurs HTML
-Dodanie pliku html i stworzenie sktruktury
-
-- Czeka na sprawdzenie
+Zadanie domowe #2 kurs HTML
+13.10 zrobione:
