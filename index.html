@@ -5,34 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <ul>
-          <li>
-            <a href="index.html">WebStudio</a>
+        <ul class="list-no-style">
+          <li class="list-left-float">
+            <a href="index.html" class="webstudio-black"
+              ><span class="webstudio-blue">Web</span>Studio</a
+            >
           </li>
-          <li><span>Agencja</span></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><span>Kontakt</span></li>
+          <li class="list-left-float">
+            <a href="#" class="header-links">Agencja</a>
+          </li>
+          <li class="list-left-float">
+            <a href="portfolio.html" class="header-links">Portfolio</a>
+          </li>
+          <li class="list-left-float">
+            <a href="#" class="header-links">Kontakt</a>
+          </li>
         </ul>
       </nav>
-      <a href="info@devstudio.com">info@devstudio.com</a>
-      <span>+48 111 111 111</span>
-
-      <div><h1>EFEKTYWNE ROZWIĄZANIA DLA TWOJEGO BIZNESU</h1></div>
-      <button type="button">Zamów usługę</button>
+      <a href="info@devstudio.com" class="header-links">info@devstudio.com</a>
+      <span class="tel-number">+48 111 111 111</span>
     </header>
-
     <main>
+      <div class="header-block">
+        <h1 class="header-block-text">
+          EFEKTYWNE ROZWIĄZANIA DLA TWOJEGO BIZNESU
+        </h1>
+
+        <button type="button" class="button-order">Zamów usługę</button>
+      </div>
+
       <div>
-        <ul>
-          <li>
-            <section>
-              <h2>Lorem ipsum</h2>
-              <p>
+        <ul class="list-no-style">
+          <li class="list-left-float">
+            <section class="description-blocks">
+              <h2 class="description-blocks-header">Lorem ipsum</h2>
+              <p class="description-blocks-text">
+                dolor sit amet consectetur adipisicing elit. Itaque ea cumque
+                nobis aliquid voluptatem commodi unde veritatis distinctio,
+                explicabo ex!
+              </p>
+            </section>
+          </li>
+
+          <li class="list-left-float">
+            <section class="description-blocks">
+              <h2 class="description-blocks-header">Lorem ipsum</h2>
+              <p class="description-blocks-text">
+                dolor sit amet consectetur adipisicing elit. Itaque ea cumque
+                nobis aliquid voluptatem commodi unde veritatis distinctio,
+                explicabo ex!
+              </p>
+            </section>
+          </li>
+
+          <li class="list-left-float">
+            <section class="description-blocks">
+              <h2 class="description-blocks-header">Lorem ipsum</h2>
+              <p class="description-blocks-text">
                 dolor sit amet consectetur adipisicing elit. Itaque ea cumque
                 nobis aliquid voluptatem commodi unde veritatis distinctio,
                 explicabo ex!
@@ -41,31 +81,9 @@
           </li>
 
           <li>
-            <section>
-              <h2>Lorem ipsum</h2>
-              <p>
-                dolor sit amet consectetur adipisicing elit. Itaque ea cumque
-                nobis aliquid voluptatem commodi unde veritatis distinctio,
-                explicabo ex!
-              </p>
-            </section>
-          </li>
-
-          <li>
-            <section>
-              <h2>Lorem ipsum</h2>
-              <p>
-                dolor sit amet consectetur adipisicing elit. Itaque ea cumque
-                nobis aliquid voluptatem commodi unde veritatis distinctio,
-                explicabo ex!
-              </p>
-            </section>
-          </li>
-
-          <li>
-            <section>
-              <h2>Lorem ipsum</h2>
-              <p>
+            <section class="description-blocks">
+              <h2 class="description-blocks-header">Lorem ipsum</h2>
+              <p class="description-blocks-text">
                 dolor sit amet consectetur adipisicing elit. Itaque ea cumque
                 nobis aliquid voluptatem commodi unde veritatis distinctio,
                 explicabo ex!
@@ -177,7 +195,7 @@
         <ul>
           <li>m. Warszawa, Aleje Jerozolimskie 21</li>
           <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
